@@ -83,7 +83,6 @@
     </script>
 </head>
 
-<!-- animsition-disabled -->
 <body class="animsition-disabled">
     <div class="page-wrapper">
 

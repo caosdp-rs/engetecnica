@@ -6,7 +6,7 @@
 ?>
 
 <?php echo "<{$preview_content} class=\"preview-content\" >"; ?>
-    <a class="preview" target="_black" href="<?php echo base_url("assets/uploads/{$anexo}"); ?>">
+    <a class="preview" target="_blank" href="<?php echo base_url("assets/uploads/{$anexo}"); ?>">
         <?php
             if (file_exists($file) && explode('/', mime_content_type($file))[0] == "image") { 
         ?>
@@ -27,7 +27,7 @@
     </a>
     <div class="preview-footer">
         <?php if (file_exists($file) ) {?>
-            <a class="btn btn-sm btn-success" target="_black" href="<?php echo base_url("assets/uploads/{$anexo}"); ?>"><i class="fa fa-eye"></i></a>
+            <a class="btn btn-sm btn-success" target="_blank" href="<?php echo base_url("assets/uploads/{$anexo}"); ?>"><i class="fa fa-eye"></i></a>
             <a class="btn btn-sm btn-info" download href="<?php echo base_url("assets/uploads/{$anexo}"); ?>"><i class="fa fa-download"></i></a>
         <?php } ?>
     </div>

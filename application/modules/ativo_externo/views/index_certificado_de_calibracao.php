@@ -39,7 +39,7 @@
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="btnGroupCertificadoAnexo">
                                                 <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item " target="_black" href="<?php echo base_url("assets/uploads/certificado_de_calibracao/{$detalhes->certificado_de_calibracao}"); ?>"><i class="fa fa-eye"></i> Visualizar</a>
+                                                <a class="dropdown-item " target="_blank" href="<?php echo base_url("assets/uploads/certificado_de_calibracao/{$detalhes->certificado_de_calibracao}"); ?>"><i class="fa fa-eye"></i> Visualizar</a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item " download href="<?php echo base_url("assets/uploads/certificado_de_calibracao/{$detalhes->certificado_de_calibracao}"); ?>"><i class="fa fa-download"></i> Baixar</a>
                                                 <div class="dropdown-divider"></div>
